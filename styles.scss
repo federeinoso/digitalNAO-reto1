@@ -1,0 +1,18 @@
+$primary: #5d5fef;
+$secondary: #a5a6f6;
+$success: #0cbc8b;
+$light: #f6f6fe;
+$info: #d8d8ff;
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;900&display=swap");
+$font-family-sans-serif: "Work Sans", sans-serif;
+
+body,
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$enable-shadows: true;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
