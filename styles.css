@@ -1,9 +1,36 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;900&display=swap");
+
 body,
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+.left-animation {
+  transform: translateX(-100rem);
+  animation: slideIn 0.8s forwards;
+}
+
+.right-animation {
+  transform: translateX(100rem);
+  animation: slideIn 0.8s forwards;
+}
+
+.top-animation {
+  transform: translateY(-50rem);
+  animation: slideIn 0.8s forwards;
+}
+
+@keyframes slideIn {
+  from {
+  }
+  to {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
 }
 
 /*!
