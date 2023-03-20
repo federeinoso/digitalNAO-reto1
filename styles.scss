@@ -4,6 +4,11 @@ $success: #0cbc8b;
 $light: #f6f6fe;
 $info: #d8d8ff;
 
+$position-values: (
+  0: -18px,
+  50: 40%,
+);
+
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;900&display=swap");
 $font-family-sans-serif: "Work Sans", sans-serif;
 
